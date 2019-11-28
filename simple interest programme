@@ -1,0 +1,13 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+ float p,r,t,si;
+ printf("enter the value of P");
+ scanf("%f",p);
+ printf("Enter the Rate ");
+ scanf("%f",t);
+ si=(p*r*t*)/100;
+ printf("Simple interest is: %f",si);
+ getch();
+ }
